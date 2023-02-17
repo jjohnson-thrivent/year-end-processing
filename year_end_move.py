@@ -6,18 +6,6 @@ logging.basicConfig( filename = 'year_end_move.log',
 encoding = "utf-8", level = logging.INFO )
 
 
-yesterday
-
-publish api specs to kong - got fraternal action teams access, still need access to the thrivent choice kong namespace not sure who is a maintainer of that 
-at this point. Scott emailed the fraternal team to get us access so we can publish the api specs
-
-
-
-1. waiting on the rds module to be added into the terraform thrivent bit bucket repo, then we can call the module
-i will follow up with cooper on that today
-
-
-
 def scan(source_dir):
 	'''
 	This function takes in a source directory
